@@ -93,9 +93,6 @@ export const Filter = ({ data }: any) => {
                     initial='hidden'
                     animate='visible'
                     exit='exit'
-                    // initial={{opacity:0}}
-                    // animate={{opacity:1}}
-                    // exit={{opacity:0}}
                     transition={{ duration: .2 }}
                   >
                     {el.title}
